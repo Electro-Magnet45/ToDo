@@ -390,9 +390,7 @@ function firstImpact() {
 }
 
 function secondImpact() {
-  if (localStorage.getItem("isPushNotificationsEnabled")) {
-    if (localStorage.getItem("isPushNotificationsEnabled") === "false") {
-      showDater.style.display = "none";
-    }
+  if (localStorage.getItem("isPushNotificationsEnabled") === "false") {
+    showDater.style.display = "none";
   }
 }
